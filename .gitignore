@@ -1,0 +1,13 @@
+/.metadata/
+
+# 프로젝트의 .classpath 파일과 .project 파일이 commit되지 않도록 작성
+/tiles/.classpath
+/tiles/.project
+
+# 프로젝트의 .settings 폴더, target 폴더와 그 하위 파일 및 폴더가 commit되지 않도록 작성
+/tiles/.settings/**
+/tiles/target/**
+
+# 프로젝트의 server 폴더, Servers 폴더와 그 하위 파일 및 폴더가 commit되지 않도록 작성
+/server/**
+/Servers/**
