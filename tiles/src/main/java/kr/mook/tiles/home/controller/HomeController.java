@@ -17,12 +17,12 @@ public class HomeController {
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		model.addAttribute("url", "home");
-		return "home.tiles";
+		return "home";
 	}
 	
 	@RequestMapping(value = "/member/home", method = RequestMethod.GET)
 	public String memberHome(Locale locale, Model model) {
 		model.addAttribute("url", "home");
-		return "member/home.tiles";
+		return "member/home";
 	}
 }
